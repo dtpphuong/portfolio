@@ -252,7 +252,7 @@
                                     <div style="position: relative;">
                                         <img class="forever-btn-contact" src="./public/images/btncontactus.png"
                                             alt="btn" />
-                                        <p class="forever-text-btn-contact">read more</p>
+                                        <p class="forever-text-btn-contact">Show More</p>
                                     </div>
                                 </div>
                                 <div>
@@ -287,7 +287,7 @@
                                         <div style="position: relative; background: transparent;">
                                             <img class="forever-btn-contact" src="./public/images/btncontactus.png"
                                                 alt="btn" />
-                                            <p class="forever-text-btn-contact">read more</p>
+                                            <p class="forever-text-btn-contact">Show More</p>
                                         </div>
                                     </div>
                                 </div>
@@ -322,7 +322,7 @@
                                     <div style="position: relative;">
                                         <img class="forever-btn-contact" src="./public/images/btncontactus.png"
                                             alt="btn" />
-                                        <p class="forever-text-btn-contact">read more</p>
+                                        <p class="forever-text-btn-contact">Show More</p>
                                     </div>
                                 </div>
                                 <div>
@@ -449,7 +449,7 @@
                     <div class="whyus-list">
                         <div class="whyus-card">
                             <div>
-                                <i class="fa-solid fa-image"></i>
+                                <img style="width: 32px" src="./public/images/iconImages.svg" />
                             </div>
                             <div>
                                 <p class="whyus-card-title">Portrait photos</p>
@@ -459,14 +459,14 @@
                             <div>
                                 <a href="./pages/portrait-photos.html">
                                     <button class="whyus-btn-readmore">
-                                        Read More
+                                        Show More
                                     </button>
                                 </a>
                             </div>
                         </div>
                         <div class="whyus-card">
                             <div>
-                                <i class="fa-solid fa-image"></i>
+                                <img style="width: 32px" src="./public/images/iconImages.svg" />
                             </div>
                             <div>
                                 <p class="whyus-card-title">Concept photos</p>
@@ -476,7 +476,7 @@
                             <div>
                                 <a href="./pages/concept-photos.html">
                                     <button class="whyus-btn-readmore">
-                                        Read More
+                                        Show More
                                     </button>
                                 </a>
                             </div>
@@ -485,7 +485,7 @@
                     <div class="whyus-list">
                         <div class="whyus-card">
                             <div>
-                                <i class="fa-solid fa-image"></i>
+                                <img style="width: 32px" src="./public/images/iconImages.svg" />
                             </div>
                             <div>
                                 <p class="whyus-card-title">Couple photos</p>
@@ -495,14 +495,14 @@
                             <div>
                                 <a href="./pages/couple-photos.html">
                                     <button class="whyus-btn-readmore">
-                                        Read More
+                                        Show More
                                     </button>
                                 </a>
                             </div>
                         </div>
                         <div class="whyus-card">
                             <div>
-                                <i class="fa-solid fa-image"></i>
+                                <img style="width: 32px" src="./public/images/iconImages.svg" />
                             </div>
                             <div>
                                 <p class="whyus-card-title">Wedding photos</p>
@@ -514,14 +514,14 @@
                             <div>
                                 <a href="./pages/wedding-photos.html">
                                     <button class="whyus-btn-readmore">
-                                        Read More
+                                        Show More
                                     </button>
                                 </a>
                             </div>
                         </div>
                         <div class="whyus-card">
                             <div>
-                                <i class="fa-solid fa-image"></i>
+                                <img style="width: 32px" src="./public/images/iconImages.svg" />
                             </div>
                             <div>
                                 <p class="whyus-card-title">Scenery photos</p>
@@ -531,24 +531,285 @@
                             <div>
                                 <a href="./pages/scenery-photos.html">
                                     <button class="whyus-btn-readmore">
-                                        Read More
+                                        Show More
                                     </button>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section class="blogs" id="blogs">
+                <!-- <section class="blogs" id="blogs">
                     <div class="contact-styled-title">
                         <div class="contact-title" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"
                             data-aos-duration="1000">
                             <img src="./public/images/bracketleft.png" alt="icon" />
-                            <p class="forever-text">???</p>
+                            <p class="forever-text">GET STARTED</p>
                             <img src="./public/images/bracketright.png" alt="icon" />
                         </div>
                         <h4 class="container-title" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"
                             data-aos-duration="1500">
                             Blogs</h4>
+                    </div>
+                </section> -->
+                <section class="integrate" id="blogs">
+                    <div class="integrate-styled-title" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"
+                        data-aos-duration="1000">
+                        <div class="contact-title">
+                            <img src="./public/images/bracketleft.png" alt="icon" />
+                            <p class="forever-text">GET STARTED</p>
+                            <img src="./public/images/bracketright.png" alt="icon" />
+                        </div>
+                        <h4 class="container-title">Blogs</h4>
+                    </div>
+                    <div class="integrate-btn-list">
+                        <button class="integrate-btn" onclick="scrollToNextStep(-1)"><img
+                                src="./public/images/arrow-left.svg" alt="icon" /></button>
+                        <button class="integrate-btn" onclick="scrollToNextStep(1)"><img
+                                src="./public/images/arrow-right.svg" alt="icon" /></button>
+                    </div>
+                    <div class="integrate-list-step-overlow">
+                        <div class="integrate-list-step">
+                            <div class="integrate-list-step-position1" onmouseover="showHoverItem(this, 1)"
+                                onmouseout="hideHoverItem(this, 1)">
+                                <div class="integrate-item">
+                                    <div class="integrate-step-img-hidden">
+                                        <img class="integrate-list-step-img" src="./public/images/step1.svg"
+                                            alt="step" />
+                                    </div>
+                                    <div class="integrate-item-detail">
+                                        <div class="integrate-top">
+                                            <h4 class="integrate-title-step">Blogs 1</h4>
+                                            <p class="integrate-title-step-text">Những thông số máy ảnh cơ bản</p>
+                                            <p class="integrate-title-step-text">cho người mới</p>
+                                        </div>
+                                        <div class="integrate-bottom">
+                                            <img class="integrate-img" src="./public/images/iconstep1.svg" alt="icon" />
+                                            <div class="integrate-bottom-right">
+                                                <p class="explore-more">explore more</p>
+                                                <img class="explore-more-icon" src="./public/images/iconright.svg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="integrate-item-hover">
+                                    <div class="integrate-step-img-hidden">
+                                        <img class="integrate-list-step-img-hover" src="./public/images/cardhover.svg"
+                                            alt="step" />
+                                    </div>
+                                    <div class="integrate-item-detail-hover">
+                                        <div class="integrate-top">
+                                            <h4 class="integrate-title-step">Ask anything</h4>
+                                            <p class="integrate-title-step-text">Lets users quickly find answers to
+                                                their
+                                            </p>
+                                            <p class="integrate-title-step-text">questions without having to search
+                                            </p>
+                                            <p class="integrate-title-step-text"> through multiple sources.</p>
+                                        </div>
+                                        <div class="integrate-bottom">
+                                            <img class="integrate-img" src="./public/images/cart1.svg" alt="icon" />
+                                            <a href="./pages/blogs1.html">
+                                                <div class="integrate-bottom-right">
+                                                    <p class="explore-more">explore more</p>
+                                                    <img src="./public/images/iconright.svg" />
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="integrate-list-step-position2" onmouseover="showHoverItem(this,2)"
+                                onmouseout="hideHoverItem(this, 2)">
+                                <div class="integrate-item1">
+                                    <div class="integrate-step-img-hidden">
+                                        <img class="integrate-list-step-img" src="./public/images/step2.svg"
+                                            alt="step" />
+                                    </div>
+                                    <div class="integrate-item-detail">
+                                        <div class="integrate-top">
+                                            <h4 class="integrate-title-step">Blogs 2</h4>
+                                            <p class="integrate-title-step-text">Bỏ túi ngay một số tips chụp ảnh đẹp
+                                            </p>
+                                            <p class="integrate-title-step-text">bằng máy cơ cho người mới</p>
+                                        </div>
+                                        <div class="integrate-bottom">
+                                            <img src="./public/images/iconstep2.svg" alt="icon" />
+                                            <div class="integrate-bottom-right">
+                                                <p class="explore-more">explore more</p>
+                                                <img src="./public/images/iconright.svg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="integrate-item-hover1">
+                                    <div class="integrate-step-img-hidden">
+                                        <img class="integrate-list-step-img-hover" src="./public/images/cardhover.svg"
+                                            alt="step" />
+                                    </div>
+                                    <div class="integrate-item-detail-hover">
+                                        <div class="integrate-top">
+                                            <h4 class="integrate-title-step">Ask anything</h4>
+                                            <p class="integrate-title-step-text">Lets users quickly find answers to
+                                                their
+                                            </p>
+                                            <p class="integrate-title-step-text">questions without having to search
+                                            </p>
+                                            <p class="integrate-title-step-text"> through multiple sources.</p>
+                                        </div>
+                                        <div class="integrate-bottom">
+                                            <img class="integrate-img" src="./public/images/cart2.svg" alt="icon" />
+                                            <div class="integrate-bottom-right">
+                                                <p class="explore-more">explore more</p>
+                                                <img src="./public/images/iconright.svg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="integrate-list-step-position3" onmouseover="showHoverItem(this,3)"
+                                onmouseout="hideHoverItem(this, 3)">
+                                <div class="integrate-item2">
+                                    <div class="integrate-step-img-hidden">
+                                        <img class="integrate-list-step-img" src="./public/images/step3.svg"
+                                            alt="step" />
+                                    </div>
+                                    <div class="integrate-item-detail">
+                                        <div class="integrate-top">
+                                            <h4 class="integrate-title-step">Blogs 3</h4>
+                                            <p class="integrate-title-step-text">Ý tưởng chụp ảnh mùa hè độc đáo </p>
+                                            <p class="integrate-title-step-text">giúp bạn nắm trọn từng khoảnh khắc</p>
+                                        </div>
+                                        <div class="integrate-bottom">
+                                            <img src="./public/images/iconstep3.svg" alt="icon" />
+                                            <div class="integrate-bottom-right">
+                                                <p class="explore-more">explore more</p>
+                                                <img src="./public/images/iconright.svg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="integrate-item-hover2">
+                                    <div class="integrate-step-img-hidden">
+                                        <img class="integrate-list-step-img-hover" src="./public/images/cardhover.svg"
+                                            alt="step" />
+                                    </div>
+                                    <div class="integrate-item-detail-hover">
+                                        <div class="integrate-top">
+                                            <h4 class="integrate-title-step">Ask anything</h4>
+                                            <p class="integrate-title-step-text">Lets users quickly find answers to
+                                                their
+                                            </p>
+                                            <p class="integrate-title-step-text">questions without having to search
+                                            </p>
+                                            <p class="integrate-title-step-text"> through multiple sources.</p>
+                                        </div>
+                                        <div class="integrate-bottom">
+                                            <img class="integrate-img" src="./public/images/cart3.svg" alt="icon" />
+                                            <div class="integrate-bottom-right">
+                                                <p class="explore-more">explore more</p>
+                                                <img src="./public/images/iconright.svg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="integrate-list-step-position4" onmouseover="showHoverItem(this,4)"
+                                onmouseout="hideHoverItem(this, 4)">
+                                <div class="integrate-item3">
+                                    <div class="integrate-step-img-hidden">
+                                        <img class="integrate-list-step-img" src="./public/images/step4.svg"
+                                            alt="step" />
+                                    </div>
+                                    <div class="integrate-item-detail">
+                                        <div class="integrate-top">
+                                            <h4 class="integrate-title-step">Blogs 4</h4>
+                                            <p class="integrate-title-step-text">Tất tần tật các mẹo chụp ảnh đẹp</p>
+                                            <p class="integrate-title-step-text">không khác gì chuyên gia</p>
+                                        </div>
+                                        <div class="integrate-bottom">
+                                            <img src="./public/images/iconstep4.svg" alt="icon" />
+                                            <div class="integrate-bottom-right">
+                                                <p class="explore-more">explore more</p>
+                                                <img src="./public/images/iconright.svg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="integrate-item-hover3">
+                                    <div class="integrate-step-img-hidden">
+                                        <img class="integrate-list-step-img-hover" src="./public/images/cardhover.svg"
+                                            alt="step" />
+                                    </div>
+                                    <div class="integrate-item-detail-hover">
+                                        <div class="integrate-top">
+                                            <h4 class="integrate-title-step">Ask anything</h4>
+                                            <p class="integrate-title-step-text">Lets users quickly find answers to
+                                                their
+                                            </p>
+                                            <p class="integrate-title-step-text">questions without having to search
+                                            </p>
+                                            <p class="integrate-title-step-text"> through multiple sources.</p>
+                                        </div>
+                                        <div class="integrate-bottom">
+                                            <img class="integrate-img" src="./public/images/cart4.svg" alt="icon" />
+                                            <div class="integrate-bottom-right">
+                                                <p class="explore-more">explore more</p>
+                                                <img src="./public/images/iconright.svg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="integrate-list-step-position5" onmouseover="showHoverItem(this, 5)"
+                                onmouseout="hideHoverItem(this, 5)">
+                                <div class="integrate-item4">
+                                    <div class="integrate-step-img-hidden">
+                                        <img class="integrate-list-step-img" src="./public/images/step5.svg"
+                                            alt="step" />
+                                    </div>
+                                    <div class="integrate-item-detail">
+                                        <div class="integrate-top">
+                                            <h4 class="integrate-title-step">Blogs 5</h4>
+                                            <p class="integrate-title-step-text">10 ứng dụng “thần kì’’ dành cho</p>
+                                            <p class="integrate-title-step-text">dân nhiếp ảnh có thể bạn chưa biết</p>
+                                        </div>
+                                        <div class="integrate-bottom">
+                                            <img class="integrate-img" src="./public/images/iconstep5.svg" alt="icon" />
+                                            <div class="integrate-bottom-right">
+                                                <p class="explore-more">explore more</p>
+                                                <img class="explore-more-icon" src="./public/images/iconright.svg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="integrate-item-hover4">
+                                    <div class="integrate-step-img-hidden">
+                                        <img class="integrate-list-step-img-hover" src="./public/images/cardhover.svg"
+                                            alt="step" />
+                                    </div>
+                                    <div class="integrate-item-detail-hover">
+                                        <div class="integrate-top">
+                                            <h4 class="integrate-title-step">Ask anything</h4>
+                                            <p class="integrate-title-step-text">Lets users quickly find answers to
+                                                their
+                                            </p>
+                                            <p class="integrate-title-step-text">questions without having to search
+                                            </p>
+                                            <p class="integrate-title-step-text"> through multiple sources.</p>
+                                        </div>
+                                        <div class="integrate-bottom">
+                                            <img class="integrate-img" src="./public/images/cart5.svg" alt="icon" />
+                                            <a href="./pages/blogs5.html">
+                                                <div class="integrate-bottom-right">
+                                                    <p class="explore-more">explore more</p>
+                                                    <img src="./public/images/iconright.svg" />
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </section>
                 <section class="contact" id="contact_us">

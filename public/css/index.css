@@ -56,7 +56,7 @@ li {
 }
 
 .aia-tech {
-    background-image: url("../../public/images/aia-bg.png");
+    /* background-image: url("../../public/images/aia-bg.png"); */
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -166,7 +166,8 @@ li {
 }
 
 .nav-link {
-    color: var(--neutral-0150, rgba(255, 255, 255, 0.50));
+    /* color: var(--neutral-0150, rgba(255, 255, 255, 0.50)); */
+    color: #e1006c;
     text-align: center;
     font-family: Sarabun;
     font-size: 12px;
@@ -198,11 +199,13 @@ li {
     font-weight: 600;
     line-height: 20px;
     letter-spacing: 0.42px;
+    text-decoration: none;
+    color: #fff;
     text-transform: uppercase;
-    background: var(--Gradient, conic-gradient(from 180deg at 50% 50%, #FFC876 35.76692193746567deg, #79FFF7 153.749338388443deg, #9F53FF 258.7512445449829deg, #FF98E2 360deg));
+    /* background: var(--Gradient, conic-gradient(from 180deg at 50% 50%, #FFC876 35.76692193746567deg, #79FFF7 153.749338388443deg, #9F53FF 258.7512445449829deg, #FF98E2 360deg));
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
 
 @media (max-width: 769px) {
@@ -231,7 +234,7 @@ li {
 .welcome {
     text-align: center;
     padding: 100px 0 0;
-    color: var(--neutral-01100, #e100bc);
+    color: var(--neutral-01100, #e1006c);
     font-family: Sarabun;
     font-size: 64px;
     font-style: normal;
@@ -248,7 +251,7 @@ li {
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    padding: 80px 0;
+    padding: 80px 20px;
 }
 
 .about-detail {
@@ -261,6 +264,12 @@ li {
     display: flex;
     flex-direction: row;
     gap: 20px;
+}
+
+@media (max-width: 1000px) {
+    .about-detail {
+        flex-direction: column;
+    }
 }
 
 
@@ -294,9 +303,21 @@ li {
     align-items: center;
 }
 
+@media (max-width: 1000px) {
+    .about-detail-img {
+        max-width: 100%;
+    }
+}
+
 .about-detail-content {
     max-width: 70%;
     width: 100%;
+}
+
+@media (max-width: 1000px) {
+    .about-detail-content {
+        max-width: 100%;
+    }
 }
 
 .about-styled-img {
@@ -400,11 +421,11 @@ li {
     top: 40%;
     font-family: Sarabun;
     text-align: center;
-    font-size: 36px;
+    font-size: 42px;
     font-style: normal;
     font-weight: 800;
-    line-height: 48px;
-    color: #e100bc;
+    line-height: 64px;
+    color: #e1006c;
     background: transparent;
 }
 
@@ -2802,6 +2823,7 @@ li {
     min-height: 100vh;
     width: 100%;
     height: 100%;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -2830,7 +2852,7 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 12px;
+    gap: 8px;
     border: 3px solid transparent;
     background-image: linear-gradient(#080811, #080811),
         linear-gradient(180deg, #34B6E1 27%, #2D2D35 100%);
@@ -2883,7 +2905,7 @@ li {
 /* text */
 .container-title {
     margin: 0;
-    color: var(--neutral-01100, #e100bc);
+    color: var(--neutral-01100, #e1006c);
     text-align: center;
     font-family: Sarabun;
     font-size: 48px;
@@ -2979,6 +3001,51 @@ li {
     border-radius: 24px;
     width: 290px;
     height: 450px;
+}
+
+
+/* blogs page */
+
+.blog-container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    background: #fff;
+}
+
+.blogs-title-text {
+    color: var(--neutral-01100, #000);
+    font-family: Sarabun;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    background: transparent;
+}
+
+.blogs-text {
+    color: var(--neutral-01100, #ccc);
+    font-family: Sarabun;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    background: transparent;
+}
+
+.blogs-title {
+    width: 100%;
+    padding: 0 0 50px;
+    text-align: center;
+    color: var(--neutral-01100, #000);
+    font-family: Sarabun;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+    background: transparent;
 }
 
 /* animation */
