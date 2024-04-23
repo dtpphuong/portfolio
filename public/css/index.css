@@ -1379,8 +1379,8 @@ li {
 }
 
 .howto-top-right img {
-    width: 460px;
-    height: 460px;
+    width: 380px;
+    height: 380px;
     padding: 20px;
     transition: transform 0.3s ease;
 }
@@ -2370,8 +2370,11 @@ li {
 }
 
 .contact-us-register {
-    overflow: hidden;
+    /* overflow: hidden; */
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .contact-us-name {
